@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import {updateEmployee, getEmployee, createEmployee} from '../services/EmployeeService'
 import { useNavigate,useParams } from 'react-router-dom'
-
+  
 const EmployyeeComponent = () => {
   const [name, setName]=useState('')
   const [mob, setMob]=useState('')

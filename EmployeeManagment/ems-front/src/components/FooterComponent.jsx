@@ -12,7 +12,7 @@ const FooterComponent = () => {
 
 </footer>
 
-    </div>
+    </div> 
   )
 }
 

@@ -1,13 +1,13 @@
 import React ,{useEffect, useState}from 'react'
 import { listEmployees ,deleteEmployee} from '../services/EmployeeService'
 import { useNavigate } from 'react-router-dom'
-
+    
 const ListEmployeeComponunt = () => {
 
    const [employees,setEmployees]= useState([])
 
    const navigator=useNavigate();
-
+    
    useEffect(()=>{
     getAllEmployees();
    },[])
